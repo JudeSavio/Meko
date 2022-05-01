@@ -74,7 +74,7 @@
     height: 100px;
     width: 100px;
     top : 20%;
-    left: 40%;
+    left: 35%;
     z-index: 0;
 }
 
@@ -170,8 +170,15 @@
         margin-right: 10%;
     }
 
+    .intro-img img{
+        height: 350px;
+        width: 350px;
+    }
+
     .blob-1{
-        left: -2%;
+        width: 200px;
+        left: -25%;
+        top : 50%
     }
 
     .blob-2

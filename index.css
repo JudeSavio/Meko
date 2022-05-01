@@ -100,9 +100,16 @@
     }
 }
 
+/* About section */
+.about{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
 /*Responsiveness testing - Ipad - landscape*/
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1000px) {
     .intro-text{
         height: 50vh;
     }
@@ -110,7 +117,7 @@
         margin-top: 5%;
     }
     .intro-img{
-        height: 50vh;
+        height: 90vh;
     }
     .blob-1
     {
@@ -132,7 +139,7 @@
         margin-top: 5%;
     }
     .intro-img{
-        height: 45vh;
+        height: 90vh;
     }
 
     .img-holder img{
@@ -168,6 +175,7 @@
 
     .intro-img{
         margin-right: 10%;
+        height: 70vh;
     }
 
     .intro-img img{

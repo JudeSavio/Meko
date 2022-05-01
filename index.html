@@ -11,6 +11,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
         <!--Typed.js-->
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <!--Viewport meta tag-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <section class="main">
@@ -41,8 +43,25 @@
 
             <!-- Section for Main Content-->
             <div class=" container">
-                <div class="row">
+
+                <!-- Blob for Decoration-->
+                <div class="blob-1">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" id="blob" width="600">
+                        <path fill="#FE17A2" d="M59.1,-33.9C71.6,-12.5,73.4,15.4,61.7,35.4C50.1,55.4,25,67.5,-1.8,68.6C-28.7,69.6,-57.4,59.7,-69.8,39.2C-82.3,18.7,-78.5,-12.2,-64.1,-34.7C-49.8,-57.2,-24.9,-71.2,-0.8,-70.8C23.3,-70.3,46.6,-55.3,59.1,-33.9Z" transform="translate(100 100)" />
+                    </svg>                              
+                </div>
+
+                <!-- Blob for Decoration-->
+                <div class="blob-2">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" id="blob" width="600">
+                        <path fill="#FE17A2" d="M59.1,-33.9C71.6,-12.5,73.4,15.4,61.7,35.4C50.1,55.4,25,67.5,-1.8,68.6C-28.7,69.6,-57.4,59.7,-69.8,39.2C-82.3,18.7,-78.5,-12.2,-64.1,-34.7C-49.8,-57.2,-24.9,-71.2,-0.8,-70.8C23.3,-70.3,46.6,-55.3,59.1,-33.9Z" transform="translate(100 100)" />
+                    </svg>                              
+                </div>
+                
+                <!--Intro Content-->
+                <div class="row" style="z-index : 1;">
                     
+                    <!--Intro Text Section-->
                     <div class="col-lg-6 intro-text">
                         <p id="main-intro-text">Hey there! meet</p>
                         <h1 style="font-size: 120px; font-weight: bold; color: #fe17a2;">MEKO</h1>
@@ -51,26 +70,23 @@
                             var typed = new Typed('.type', {
                             strings: [' fun', ' cute','free','adorable', 'pawsome'],
                             smartBackspace: true,
-                            typeSpeed: 150,
-                            backSpeed: 150,
+                            typeSpeed: 160,
+                            backSpeed: 180,
                             loop: true, 
                             },
                             );
                         </script>
                     </div>
 
-                    <div class="intro-img col-lg-6">
-                        <div class="blob">
-                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" id="blob" width="650">
-                                <path fill="#FE17A2" d="M59.1,-33.9C71.6,-12.5,73.4,15.4,61.7,35.4C50.1,55.4,25,67.5,-1.8,68.6C-28.7,69.6,-57.4,59.7,-69.8,39.2C-82.3,18.7,-78.5,-12.2,-64.1,-34.7C-49.8,-57.2,-24.9,-71.2,-0.8,-70.8C23.3,-70.3,46.6,-55.3,59.1,-33.9Z" transform="translate(100 100)" />
-                            </svg>                              
-                        </div>
+                    <!--Intro Image Section-->
+                    <div class="intro-img col-lg-6">     
                         <div class="img-holder">
-
+                            <img src="./assets/img/Meko-square.png" alt="Meko Image">
                         </div>
                     </div>
 
                 </div>
+
             </div>
         </section>
     </body>

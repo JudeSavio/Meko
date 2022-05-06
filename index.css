@@ -30,7 +30,7 @@
 #main-intro-text{
     margin-top: 25%;
     font-size: 50px;
-    font-weight: 50;
+    font-weight: lighter;
 }
 
 #intro-h1{
@@ -65,7 +65,7 @@
     height: 100px;
     width: 100px;
     top : 5%;
-    left: 52.5%;
+    left: 60.5%;
     z-index: 0;
 }
 
@@ -105,6 +105,8 @@
     height: 100vh;
     width: 100%;
     background-color: #f2f2f2;
+    background-image: url('./assets/img/about-background.png');
+    background-size: cover;
 }
 
 .about-h1{
@@ -117,7 +119,6 @@
 
 .about-video video{
     margin-top: 40%;
-    margin-left: -15%;
 }
 
 /*Responsiveness testing - Ipad - landscape*/
@@ -218,6 +219,12 @@
     {
         display: none;
     }
+
+    .about{
+        background-image: url('./assets/img/about-background-mobile.png') no-repeat;
+        background-size: contain;
+    }
+
     .about-video video{
         margin-top : 20%;
         width: 400;
